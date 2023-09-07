@@ -8614,7 +8614,7 @@
 }
 
 .discount-image {
-  border-radius: 0;
+  border-radius: 16px 16px 0 0;
 }
 
 .discount-paragraph {
@@ -8627,8 +8627,7 @@
 }
 
 .get-discount-thumbnail-wrap {
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-radius: 16px 16px 0 0;
   position: relative;
   overflow: hidden;
 }
@@ -8636,7 +8635,7 @@
 .get-discount-single-item {
   z-index: 0;
   background-color: #e8e8e8;
-  border-radius: 10px;
+  border-radius: 16px;
   flex: none;
   justify-content: center;
   align-items: center;
@@ -8648,7 +8647,9 @@
 
 .get-discount-content {
   opacity: 1;
-  padding: 30px;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  padding: 20px 30px 30px;
 }
 
 @media screen and (min-width: 1280px) {
